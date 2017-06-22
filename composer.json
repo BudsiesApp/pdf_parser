@@ -1,0 +1,24 @@
+{
+  "name": "budsies/pdf_parser",
+  "version": "1.6.1",
+  "description": "This is the part of FPDI, moved out of the mail package, because of missing autoload.",
+  "type": "library",
+  "keywords": ["pdf", "fpdi", "fpdf"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jan Slabon",
+      "email": "jan.slabon@setasign.com",
+      "homepage": "https://www.setasign.com"
+    },
+    {
+      "name": "Budsies Dev",
+      "email": "dev@budsies.com"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "pdf_parser.php"
+    ]
+  }
+}
